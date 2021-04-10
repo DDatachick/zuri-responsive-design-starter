@@ -345,3 +345,86 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+
+/*Media Queries*/
+/*Responsiveness for Screen*/
+
+@media (max-width: 780px) and (min-width:250px){
+    body {
+        width:100%;
+        min-width: 100vm;
+    }
+    * {
+        max-width: 100%;
+    }
+    div.nav-bar {
+        width: 100%;
+    }
+    div.nar-bar .logo{
+       display:block;
+    }
+    ul.nav-links{
+        display: block;
+    }
+    div.hero-section{
+        width:100%;
+        padding: 1.5rem 3em;
+    }
+    div.hero-background{
+        display:block;
+        justify-content: center;
+        max-width: 100%;
+        padding: 1rem 2em;
+    
+    }
+    div.background{
+        max-width:100%;
+        padding: 0.1rem 0.1rem 
+    
+    }
+    div.hero-background-pos {
+        display: none;
+      }
+    div.snapshot-team {
+        padding: 2.5rem 2.5rem 0;
+      }
+    div.snapshot-box {
+        display: block;
+        justify-content: center;
+        width:100%;
+      }
+    div.snapshot-box-content {
+        display: block;
+        justify-content: center;
+      }
+    div.gallery-img {
+        margin: 0 auto;
+      }
+    div.img {
+        margin: 0 1rem 1rem 0;
+      }
+    div.footer {
+        padding: 2.5rem 6rem 0.5rem;
+        margin-top: 0.5rem;
+      }
+    div.footer-input {
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+    div.footer-input > input {
+        width: 100%;
+        box-sizing: border-box;
+        margin: 0 auto 0.8rem;
+      }
+    div.footer-textarea {
+        width: 100%;
+        display: block;
+        padding-top: 0;
+      }
+    div.footer-textarea > textarea {
+        width: 100%;
+      }
+}
